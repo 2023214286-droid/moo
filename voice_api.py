@@ -24,7 +24,7 @@ LLM_MODEL = os.getenv("GROQ_LLM_MODEL", "openai/gpt-oss-20b")
 #   en-MY-AhmadNeural      - Lelaki Malaysia (kalau ada)
 #   en-US-GuyNeural        - Lelaki US
 #   en-GB-RyanNeural       - Lelaki UK
-EDGE_TTS_VOICE = os.getenv("EDGE_TTS_VOICE", "en-SG-WayneNeural")
+EDGE_TTS_VOICE = os.getenv("EDGE_TTS_VOICE", "en-US-AndrewMultilingualNeural")
 
 GROQ_BASE_URL = "https://api.groq.com/openai/v1"
 
